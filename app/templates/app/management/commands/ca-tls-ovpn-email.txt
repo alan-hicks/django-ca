@@ -1,0 +1,19 @@
+{{ user.first_name }} {{ user.last_name }},
+
+Please find attached your client configuration to access the
+{{ org }} VPN. This is for your personal use, so please keep it safe
+and don't share it with anyone else.
+
+To access our VPN from your mobile, please install OpenVPN, download the
+attached client.ovpn configuration file, then from the OpenVPN menu choose
+Install Profile, then from the file tab import the downloaded client.ovpn.
+{% if auth_user_pass %}
+Your username and password are the ones you normally use{% endif %}
+
+Your access to our VPN is valid until {{ client_certificate_enddate }}
+and we will send you a replacement nearer the time.
+
+You are now ready to use the {{ org }} VPN.
+
+Kind regards,
+{{ org }}
