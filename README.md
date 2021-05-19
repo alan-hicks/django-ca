@@ -8,5 +8,5 @@ Why manage certificates?
 
 Apps such as OpenVPN use certificates for authentication, authorisation and encryption.
 By managing your own ca you get to choose who has access to your network.
-This app also collates certificates and other settings into a conveniente client.ovpn
+This app also collates certificates and other settings into a convenient client.ovpn
 file.
